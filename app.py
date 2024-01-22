@@ -41,7 +41,7 @@ def suggestion():
     movie_list = movies['title'].values
     status = False
 
-    if request.method == 'POST':
+    if request.method == 'POST':    
         try:
             if request.form:
                 movies_name = request.form['movies']
